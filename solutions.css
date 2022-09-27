@@ -102,52 +102,32 @@
 }
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: top 2s linear 1;
+    animation: top 2s linear;
 }
 
 @keyframes top {
     0% {
         left: 10%;
     }
-
-    25% {
-        left: 10%;
-    }
-
     50% {
         left: calc(100% - 60px);
     }
-
-    75% {
-        left: 10%;
-    }
-
     100% {
         left: 10%;
     }
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: bottom 2s linear 1;
+    animation: bottom 2s linear;
 }
 
 @keyframes bottom {
     0% {
         right: 20%;
     }
-
-    25% {
-        right: 20%;
-    }
-
     50% {
         right: calc(100% - 60px);
     }
-
-    75% {
-        right: 20%;
-    }
-
     100% {
         right: 20%;
     }
