@@ -84,7 +84,7 @@
 }
 
 .ex-11-icon:hover {
-    animation: circle-rotation2 3s;
+    animation: circle-rotation2 2s linear;
 }
 
 @keyframes circle-rotation2 {
